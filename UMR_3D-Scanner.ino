@@ -18,7 +18,7 @@
 // moveOneStp - one microstep
 // moveFullStp - 16 microsteps
 // move64Stps - 100 stps / rotation
-#define moveStepper move64Stps
+#define moveStepper moveOneStp
 
 //declare direction variable
 bool dir;
