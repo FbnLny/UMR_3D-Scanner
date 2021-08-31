@@ -43,7 +43,7 @@ void setup() {
 
 //Main program
 void loop() {
-  byte serData[3] = {0,0,0};  //array of 3 bytes, serial data will be soterd here
+  //byte serData[3] = {0,0,0};  //array of 3 bytes, serial data will be soterd here
   int numStps = 0;  // number of steps to take
   bool fault = false;
   if (Serial.available() > 0) {
